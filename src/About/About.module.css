@@ -1,0 +1,21 @@
+.About{
+    background-color:#1abc9c;
+}
+.span::before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 52%;
+    width: 90px;
+    height: 4px;
+    background-color: #f3eeee;
+} 
+.span::after{
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 52%;
+    width: 90px;
+    height: 4px;
+    background-color: #f3eeee;
+} 
